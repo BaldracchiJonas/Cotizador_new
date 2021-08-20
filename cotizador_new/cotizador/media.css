@@ -1,0 +1,415 @@
+/* Large desktops and laptops */
+
+@media (min-width: 1281px) {
+    .container_btn_ver_mas {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .container_btn_ver_mas {
+        display: none;
+    }
+    .button_red {
+        width: 23%;
+        font-size: 17px;
+    }
+    .button_white {
+        width: 40%;
+        font-size: 17px;
+    }
+    h2.section_title {
+        font-size: 20px;
+    }
+    h2.section_title span {
+        font-size: 22px;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+
+@media (min-width: 961px) and (max-width: 1024px) {
+    .page_body_container {
+        padding: 21px 37px;
+        width: 100%;
+    }
+    .nav_opcion {
+        height: 56px;
+        font-size: 14px;
+    }
+    h2.section_title span {
+        font-size: 23px;
+    }
+    h2.section_title {
+        font-size: 23px;
+    }
+    .container_btn_ver_mas {
+        display: none;
+    }
+    .icono_custom {
+        font-size: 33px;
+    }
+    .button_red {
+        font-size: 15px;
+    }
+    .button_white {
+        width: 42%;
+        height: 42px;
+        font-size: 15px;
+    }
+    .number_right {
+        font-size: 30px;
+    }
+    .mensaje_final {
+        width: 80%;
+    }
+}
+
+/* Portrait tablets and small desktops */
+
+@media (min-width: 801px) and (max-width: 960px) {
+    .page_body_container {
+        padding: 21px 34px;
+        width: 100%;
+    }
+    .container_btn_ver_mas {
+        display: none;
+    }
+    .nav_opcion_text {
+        font-size: 12px;
+    }
+    .nav_opcion {
+        height: 56px;
+    }
+    .button_red {
+        width: 26%;
+        height: 42px;
+        font-size: 15px;
+    }
+    .button_white {
+        width: 40%;
+        height: 42px;
+        font-size: 15px;
+    }
+    h2.section_title span {
+        font-size: 18px;
+    }
+    h2.section_title {
+        font-size: 18px;
+    }
+    .icono_custom {
+        font-size: 30px;
+    }
+    .texto_finales {
+        font-size: 14px;
+    }
+    .number_right {
+        font-size: 30px;
+    }
+    .mensaje_final {
+        width: 80%;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 800px) {
+    .page_body_container {
+        padding: 21px 0;
+    }
+    /* .nav_opcion {
+        font-size: 12px;
+        text-align: center;
+        height: 40px;
+    } */
+    .nav_opcion {
+        font-size: 14px;
+        text-align: center;
+        height: 40px;
+    }
+    .nav_opcion_number {
+        font-size: 0px;
+    }
+    .icono_custom {
+        font-size: 25px;
+    }
+    i.icono_custom.arrow {
+        font-size: 0;
+    }
+    .section_datos {
+        padding-top: 20px;
+    }
+    h2.section_title {
+        font-size: 17px;
+    }
+    h2.section_title span {
+        font-size: 17px;
+    }
+    .formulario_datos {
+        padding: 20px 10px 20px;
+    }
+    .datos_container {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    /* .select_corto {
+        width: 40%;
+    } */
+    .select_corto {
+        width: 14%;
+    }
+    /* .select_medio {
+        width: 40%;
+    } */
+    .select_medio {
+        width: 17%;
+    }
+    /* .select_largo {
+        width: 40%;
+    } */
+    .select_largo {
+        width: 31%;
+    }
+    /* .datos_container.datos_personales {
+        flex-direction: column;
+        align-items: center;
+    } */
+    /* .button_red {
+        width: 53%;
+        font-size: 13px;
+    } */
+    .button_red {
+        width: 28%;
+        font-size: 15px;
+        height: 43px;
+    }
+    /* .dato_largo_celular {
+        width: 86%;
+    } */
+    .dato_largo_celular {
+        width: 31%;
+    }
+    /* pagina cuota */
+    .cuadro_borde {
+        padding: 10px 7px;
+        flex-wrap: wrap;
+        width: 88%;
+        margin: 20px auto 16px;
+        /* justify-content: center; */
+    }
+    .texto_left_title {
+        font-size: 15px;
+    }
+    .texto_left_descripcion {
+        flex-wrap: wrap;
+    }
+    .texto_left_nombre {
+        margin-bottom: 10px;
+    }
+    /* .cuadro_texto_left {
+        width: 100%;
+        margin-bottom: 15px;
+    } */
+    .cuadro_texto_left {
+        width: 70%;
+        margin-bottom: 0;
+    }
+    .datos_container.datos_polizas {
+        flex-direction: column;
+    }
+    .poliza_container {
+        width: 95%;
+        margin: 0 auto 20px;
+    }
+    h2.number_right {
+        font-size: 30px;
+    }
+    .formulario_polizas {
+        padding: 10px 0px 10px;
+    }
+    .container_btn_ver_mas {
+        display: flex;
+        justify-content: center;
+    }
+    input.btn_ver_mas {
+        background: transparent;
+        border: none;
+    }
+    input.btn_ver_mas:focus {
+        outline: none;
+    }
+    /* pagina cotiza */
+    .mensaje_container {
+        font-size: 15px;
+        padding: 22px;
+    }
+    .vista_final_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_vista_container {
+        width: 90%;
+    }
+    .section_button_modificar {
+        padding: 10px 0 25px;
+    }
+    .section_vista {
+        display: flex;
+        padding: 12px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .item_texto {
+        width: 31%;
+        display: flex;
+    }
+    /* .button_white {
+        width: 33%;
+        font-size: 15px;
+        height: 42px;
+    } */
+    .button_white {
+        width: 17%;
+        font-size: 15px;
+        height: 40px;
+    }
+    .mensaje_final {
+        width: 100%;
+    }
+}
+
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) {
+    .page_body_container {
+        padding: 21px 0;
+    }
+    .nav_opcion {
+        font-size: 12px;
+        text-align: center;
+        height: 40px;
+    }
+    .nav_opcion_number {
+        font-size: 0px;
+    }
+    .icono_custom {
+        font-size: 25px;
+    }
+    i.icono_custom.arrow {
+        font-size: 0;
+    }
+    .section_datos {
+        padding-top: 20px;
+    }
+    h2.section_title {
+        font-size: 17px;
+    }
+    h2.section_title span {
+        font-size: 17px;
+    }
+    .formulario_datos {
+        padding: 20px 10px 20px;
+    }
+    .datos_container {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .select_corto {
+        width: 40%;
+    }
+    .select_medio {
+        width: 40%;
+    }
+    .select_largo {
+        width: 40%;
+    }
+    /* .datos_container.datos_personales {
+        flex-direction: column;
+        align-items: center;
+    } */
+    .button_red {
+        width: 53%;
+        font-size: 13px;
+    }
+    .dato_largo_celular {
+        width: 86%;
+    }
+    /* pagina cuota */
+    .cuadro_borde {
+        padding: 10px 7px;
+        flex-wrap: wrap;
+        width: 88%;
+        margin: 20px auto 16px;
+        /* justify-content: center; */
+    }
+    .texto_left_title {
+        font-size: 15px;
+    }
+    .texto_left_descripcion {
+        flex-wrap: wrap;
+    }
+    .texto_left_nombre {
+        margin-bottom: 10px;
+    }
+    .cuadro_texto_left {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .datos_container.datos_polizas {
+        flex-direction: column;
+    }
+    .poliza_container {
+        width: 95%;
+        margin: 0 auto 20px;
+    }
+    h2.number_right {
+        font-size: 30px;
+    }
+    .formulario_polizas {
+        padding: 10px 0px 10px;
+    }
+    .container_btn_ver_mas {
+        display: flex;
+        justify-content: center;
+    }
+    input.btn_ver_mas {
+        background: transparent;
+        border: none;
+    }
+    input.btn_ver_mas:focus {
+        outline: none;
+    }
+    /* pagina cotiza */
+    .mensaje_container {
+        font-size: 15px;
+        padding: 22px;
+    }
+    .vista_final_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_vista_container {
+        width: 90%;
+    }
+    .section_button_modificar {
+        padding: 10px 0 25px;
+    }
+    .section_vista {
+        display: flex;
+        padding: 12px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .item_texto {
+        width: 31%;
+        display: flex;
+    }
+    .button_white {
+        width: 33%;
+        font-size: 15px;
+        height: 42px;
+    }
+    .mensaje_final {
+        width: 100%;
+    }
+}

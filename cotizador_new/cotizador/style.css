@@ -1,0 +1,748 @@
+/* icons */
+
+i {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.arrow:before {
+    content: "\e900";
+}
+
+.car:before {
+    content: "\e901";
+}
+
+.ic_box:before {
+    content: "\e904";
+    color: white;
+    font-size: 28px
+}
+
+.ic_checkbox:before {
+    content: "\e905";
+    color: white;
+    font-size: 28px
+}
+
+.dobleHoja:before {
+    content: "\e902";
+}
+
+.hoja:before {
+    content: "\e903";
+}
+
+.persona:before {
+    content: "\e906";
+}
+
+.tilde:before {
+    content: "\e907";
+    color: #f11f24;
+}
+
+.icono_custom {
+    font-size: 38px;
+    color: #f11f24;
+}
+
+.icono_custom.arrow {
+    font-size: 21px;
+    position: absolute;
+    right: -21px;
+    top: 8px;
+    color: #8d8d8d;
+}
+
+/* header */
+
+img.header_imagen {
+    height: auto;
+    width: 100%;
+}
+
+img.logo_stopcar{
+    width: 10%;
+}
+/* Page Body */
+
+.page_body {
+    padding-bottom: 40px;
+}
+
+.page_body_container {
+    padding: 21px 72px;
+    position: relative;
+    width: 100%;
+}
+
+#page_cotiza,
+#page_cuota,
+#page_final {
+    display: none;
+}
+
+/* nav */
+
+nav.nav_opcion_container {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+}
+
+.nav_opcion {
+    width: 35%;
+    height: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: 'myriad_pro';
+    color: #8d8d8d;
+    position: relative;
+    transition: all .3s;
+    margin-left: 15px;
+    font-size: 25px;
+    /* cursor: pointer; */
+}
+
+.nav_opcion.select,
+/* .nav_opcion.select:hover { //comente para sacar si selecciono aparece el color
+    color: #333333;
+}
+
+.nav_opcion:hover {
+    color: #616161;
+} */
+
+/*.nav_opcion.select .nav_opcion_border {
+
+}*/ Me salia problema aca por eso lo comente
+
+.nav_opcion.select .icono_custom.arrow {
+    color: #f11f24;
+}
+
+.nav_opcion_number {
+    font-family: 'myriad_bold';
+    font-size: 15px;
+    color:white;
+    /*width: 25px;
+    height: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: red;*/
+}
+
+.nav_opcion_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.nav_opcion_border {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all .3s;
+}
+
+/* Sections */
+
+/* Section title */
+
+.section_datos {
+    padding-top: 50px;
+}
+
+.section_title_container {
+    height: 58px;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px 28px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -25px; /*margen cambiado*/
+}
+
+.section_title_container->img{
+    height: 35px;
+}
+
+
+.section_title_container_texto {
+    height: 58px;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2.section_title {
+    margin: 0;
+    margin-left: 24px;
+    color: #A61B34;
+    font-size: 33px;
+    font-family: 'raleway_light';
+    font-weight: bold;
+}
+
+h2.section_title span {
+    margin: 0;
+    color: #f11f24;
+    font-size: 26px;
+    font-family: 'raleway_semibold';
+}
+
+/* Section formulario vehiculo */
+
+.section_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario_datos {
+    padding: 38px 58px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .datos_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+} */
+
+.datos_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    font-family: 'myriad_pro';
+    font-size: 13px;
+    color: #3e3e3e;
+}
+
+.formulario_select {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    height: 36px;
+    font-size: 15px;
+    color: #999999;
+}
+
+.select_corto {
+    width: 13%;
+}
+
+.select_medio {
+    width: 21%;
+}
+
+.select_largo {
+    width: 29%;
+}
+
+.checkbox_container {
+    border: 1px solid #cccccc;
+    border-radius: 21px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(29, 29, 29);
+    background-color: white;
+    outline: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.checkbox_container.active .checkbox {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    position: absolute;
+    background: #cccccc;
+    cursor: pointer;
+    margin: 0;
+}
+
+.checkbox {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    position: absolute;
+    background: white;
+    cursor: pointer;
+    margin: 0;
+}
+
+.select_checkbox {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.select_checkbox_option {
+    font-size: 15px;
+    font-family: 'myriad_pro';
+    color: #3e3e3e;
+}
+
+.button_red {
+    margin: 0 auto;
+    width: 350px;
+    text-align: center;
+    height: 47px;
+    border: none;
+    border-radius: 50px;
+    background-color: #f11f24;
+    color: white;
+    font-size: 19px;
+    transition: all .3s;
+    background-image: linear-gradient(to right, #a9142e , #ff2b2bde);
+    font-size: 20px;
+}
+
+/* .button_red:hover {
+    background-color: #b60000;
+} */
+
+/* section cuota */
+
+.cuadro_borde {
+    width: 100%;
+    border: 1px solid #8c8c8c;
+    padding: 24px 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+.texto_left_nombre {
+    font-family: 'myriad_bold';
+    font-size: 17px;
+    color: #3e3e3e;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.texto_left_title {
+    font-family: 'myriad_pro';
+    font-size: 17px;
+    color: #3e3e3e;
+    margin: 0;
+}
+
+.texto_left_descripcion {
+    font-family: 'myriad_pro_light';
+    font-size: 17px;
+    color: #3e3e3e;
+    margin: 0;
+    display: flex;
+}
+
+.texto_left_info {
+    margin-right: 40px;
+}
+
+.cuadro_texto_right {
+    text-align: end;
+}
+
+.texto_right {
+    font-family: 'myriad_pro_light';
+    font-size: 20px;
+    color: black;
+    margin: 0;
+}
+
+.number_right {
+    font-family: 'myriad_pro_semibold';
+    font-size: 41px;
+    color: #f11f24;
+    margin: 0;
+}
+
+/* polizas */
+
+.formulario_polizas {
+    padding: 38px 0px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.poliza_container {
+    width: 32.5%;
+    border-bottom: 1px solid #818181;
+    cursor: pointer;
+}
+
+.poliza_opcion_container {
+    width: 100%;
+    height: 40px;
+    background-color: #818181;
+    padding: 0px 12px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.poliza_opcion_title {
+    color: white;
+    font-family: 'myriad_pro_light';
+    font-size: 21px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poliza_opcion_title span {
+    color: white;
+    font-family: 'myriad_pro_bold';
+    font-size: 21px;
+}
+
+.cuadro_texto_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.checked {
+    display: flex;
+    justify-content: center;
+}
+
+.poliza_informacion_container {
+    height: 80px;
+    align-items: center;
+    padding: 0px 12px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'myriad_pro';
+    font-size: 15px;
+    color: #3e3e3e;
+}
+
+.poliza_informacion_right {
+    text-align: right;
+}
+
+.texto_finales {
+    font-family: 'myriad_pro_light';
+    font-size: 15px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.poliza_descripcion_borde {
+    padding: 10px;
+    margin: 10px 0 10px 0px;
+    border: 1px solid #818181;
+    display: flex;
+    align-items: center;
+}
+
+.poliza_descripcion {
+    padding: 10px;
+    margin: 10px 0 10px 0px;
+    display: flex;
+    align-items: center;
+    color: #818181;
+}
+
+.poliza_descripcion_container {
+    display: none;
+}
+
+.poliza_mostrar {
+    display: none;
+}
+
+/* cotiza */
+
+.mensaje_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    font-size: 23px;
+    font-family: 'raleway_light';
+    color: #f11f24;
+}
+
+.aviso {
+    font-family: 'myriad_pro_light';
+    color: black;
+}
+
+.section_title_vista {
+    height: 58px;
+    background-color: #f2f2f2;
+    padding: 10px 28px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section_vista {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    height: 140px;
+}
+
+.section_button_modificar {
+    display: flex;
+    padding: 20px 0 90px;
+}
+
+.button_white {
+    margin: 0 auto;
+    width: 170px;
+    text-align: center;
+    height: 47px;
+    border: 1px solid #f11f24;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #f11f24;
+    font-size: 19px;
+    transition: all .3s;
+}
+
+.vista_final_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_vista_container {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+.aviso_button {
+    margin: 10px auto;
+    color: #8d8d8d;
+}
+
+.mensaje_final_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 90px 0 0 0;
+    flex-direction: column;
+}
+
+.mensaje_final_container .tilde {
+    font-size: 210px;
+    margin-bottom: 30px;
+}
+
+.mensaje_final {
+    /* font-family: 'raleway_light'; */
+    font-size: 24px;
+    text-align: center;
+    width: 30%;
+    margin-top: 10px;
+    font-weight: bold;
+    font-weight: 800px;
+}
+
+.mensaje_final_red {
+    font-family: 'raleway_light';
+    color: #3F3F3F;
+    font-size: 17px;
+    margin-top: 23px;
+    font-weight: bold;
+    font-weight: 500px;
+}
+
+.content-loading {
+    background-image: url('img/712.GIF');
+    background-repeat: no-repeat;
+    background-position: 8px 8px;
+}
+
+#tilde{
+    stroke-dashoffset: 2000;
+    stroke-dasharray: 2000;
+    animation-name: dibujo;
+    animation-duration: 1.8s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+#circulo{
+    stroke-dashoffset: 2000;
+    stroke-dasharray: 2000;
+    animation-name: dibujo;
+    animation-duration: .6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes dibujo {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.autocomplete-suggestions {
+	overflow: auto;
+	border: 1px solid #CBD3DD;
+	background: #FFF;
+	font-size: 12px;
+}
+.autocomplete-suggestions strong {
+	color: #029cca;
+	font-weight: normal;
+}
+.autocomplete-suggestion { overflow: hidden; padding: 5px 15px; white-space: nowrap; }
+
+.autocomplete-selected { background: #F0F0F0; }
+
+.container_cargando,.container_cargando2 {
+    position: absolute;
+    background-color: #ffffffbd;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    display: none;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+img.imagen_cargando {
+    /* opacity: 0.5; */
+    width: 35%;
+    /* top: 50%;
+    position: absolute; */
+}
+
+.section_title_container_texto div {
+    display: flex;
+    align-items: center;
+}
+
+.section_title_container_texto div p {
+    margin: 0;
+    text-align: right;
+    color: #818181;
+    font-size: 11px;
+}
+
+.circle
+  {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    background-color: #919296;
+    display: flex;
+    justify-content: center;
+  }
+
+  .prueba{
+    max-height: 8px;
+    background: #d9d6d6;
+    border-radius: 5px;
+    min-height: 8px;
+    display: flex;
+}
+
+.paso{
+    width: 33.3%;
+    background-color: #A61B34;
+    border-radius: 5px;
+}
+
+.cobertura_text{
+    color:#A61B34;
+}
+
+.cotiza_text{
+    color:#A61B34;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 720;
+}
+
+.calcular_text{
+    color:gray;
+    font-size: 25px;
+    font-weight: 150;
+    /*position: absolute*/
+    
+}
+
+.contener_imagen{
+    display: flex;
+    align-items: center;
+}
+
+.contener_imagen div{
+    margin-left: 10px;
+}
+
+.button_fade{
+    background-image: linear-gradient(to right, #a9142e , #ff2b2bde);
+    background-color: #a9142e;
+}
+
+.icon_auto{
+    height: 35px;   
+}
+
+.section_title_esta{
+    height: 58px;
+    width: 100%;
+
+    text-align: center;
+    margin-top:22px;
+}
+
+.cls-1,.cls-2{
+    
+    fill: none !important;
+    stroke: #0BD904 !important;
+
+}
+
+.gracias{
+    font-weight: 950;
+    color: #3F3F3F;
+}

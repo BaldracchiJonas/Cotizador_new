@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('icomoon.ttf?rc45qv') format('truetype'), url('icomoon.woff?rc45qv') format('woff'), url('icomoon.svg?rc45qv#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myriad_bold';
+    src: url('myriad_bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myriad_pro';
+    src: url('myriad_pro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myriad_pro_bold';
+    src: url('myriad_pro_bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myriad_pro_light';
+    src: url('myriad_pro_light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myriad_pro_semibold';
+    src: url('Myriad Pro Semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway_light';
+    src: url('raleway_light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway_semibold';
+    src: url('raleway_semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
